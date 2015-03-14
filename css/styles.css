@@ -1,0 +1,323 @@
+/*
+Final Project : Website Designing
+Author : Shalini Krishnamoorthi
+File Name : styles.css
+Version 1 : 03/05/2015
+*/
+
+body {
+	margin:0; 
+	padding:0; 
+	width:100%; 
+	/*background:#f3f3f3;*/
+	background: url(../images/grey.jpg) no-repeat; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+    font-size:100%;
+    line-height:1.125em; /* 16×1.125=18 */
+
+}
+.main {
+	width:100%; 
+	padding:0; 
+	margin:0 auto; 
+}
+
+.myheader {
+	/*background:url("images2/header_bg.gif") top repeat-x;*/
+	padding:0;
+	margin:0 auto;
+	width:100%;
+	height:100px;
+}
+#band1{
+	-moz-opacity:0.9; /*Older than Firefox 0.9*/
+	-khtml-opacity: 0.9; /*Safari 1.x*/
+	opacity:0.9;
+
+	color:#000;
+	/*border-style: solid;*/
+	/*border-color: black;*/
+	/*border-radius:10px; */
+	background-color: #FFFFFF;
+}
+#band2{
+	margin:0 auto;
+	-moz-opacity:0.9; /*Older than Firefox 0.9*/
+	-khtml-opacity: 0.9; /*Safari 1.x*/
+	opacity:0.9;	
+	font-weight: solid;
+	width: 1000px;
+	border-style: solid;
+	border-color: black;
+	border-radius:10px; 
+	background-color: #000000;//#FFFFFF;
+	text-align: center;
+}
+#band2 span{
+	color: #FFFFFF;
+	text-transform: uppercase;
+	font-style: "Verdana";
+	font-size: 15px;
+	padding-left:5em;
+}
+/* top right bottom left*/
+#wrapper{
+	width: 1000px;
+	/*height: 900px;*/
+    margin: 120px auto;
+    overflow:hidden;
+    /*border:1px solid black;*/
+}
+
+table{
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+	width:100%;
+}
+
+a {
+    color: #000000;
+}
+
+header{
+    position:absolute;
+    top:0;
+    color:black;
+}
+
+footer{
+	color: black;
+    bottom: 0;
+    position: fixed;
+    z-index:1;
+    text-align: center;
+}
+
+#author{
+	float:right;
+	position: fixed;
+	bottom:0px;
+	right: 0;
+	text-align: center;
+	z-index:10;
+}
+
+/*#slide
+{
+    display: none;
+    background: grey;
+    color: #FFF;
+    padding: 10px;
+}*/
+/************ Reservation page css - START ***********/
+/*top right bottom left*/
+#reservation_box {
+  width: 1000px;
+  height: auto;//600px;
+  margin: 100px auto;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+
+
+#reservation_box table{
+	width:80%;
+}
+
+#booking td{
+	vertical-align: middle;
+}
+
+#booking input{
+	width:200px;
+} 
+
+#booking td {
+    padding: 5px 5px 5px 5px;
+}
+
+/***********	* Reservation page css - END ***********/
+/************ About Us page css - START ***********/
+#history {
+  width: 1000px;
+  height: auto;
+  margin: 100px auto;
+  margin-left: auto ;
+  margin-right: auto ;
+  /*border-style: solid;
+  border-color: #dbdbdb;*/
+  border:1px solid black
+}
+
+#history p{
+	margin-left:30px;
+	margin-right:30px;
+}
+#history h2{
+	text-align:center;
+}
+
+#blocks{
+	width:1000px;
+	height: 300px;
+
+
+}
+#blocks p{
+	text-align: center;
+}
+#blocks h4{
+	text-align: center;
+}
+
+#blocks img{
+	float: left;
+	margin-left: 70px;
+	margin-right:30px;
+}
+/************ About Us page css - END ***********/
+/************ Gallery page css - START ***********/
+#container{
+  width: 1000px;
+  height: auto;
+  /*margin: 10px auto;*/
+  margin-top:100px;
+  margin-left: auto ;
+  margin-right: auto ;
+  /*border:1px solid black*/
+}
+#container h3{
+	text-align: center;
+}
+
+.pictures{
+	/*width: 300px;
+	height: 500px;
+*/	margin-bottom: 25px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+	/*margin: auto;*/
+	position: relative;
+	overflow: hidden;
+	float:left;
+}
+.title {
+	font-size: 20px;
+}
+/************ Gallery page css - END ***********/
+/************ Contact Us page css - START ***********/
+#contact {
+  width: 1000px;
+  height: 500px;
+  margin: 100px auto;
+  margin-left: auto ;
+  margin-right: auto ;
+  /*border-style: solid;
+  border-color: #dbdbdb;*/
+  border:1px solid black
+}
+
+#address{
+	float:left;
+	width:330px;
+	height:auto;
+}
+#contact h4{
+	text-align: center;
+}
+#address p{
+	text-align:left;
+	padding-left:20px;
+}
+#phone{
+	float:left;
+	width:330px;
+	height:100px;
+}
+
+#phone p{
+	padding-left: 100px;
+}
+#mail{
+	float:left; 
+	width:330px; 
+	height:100px;
+}
+#mail p{
+	padding-right:20px;
+	text-align: center;
+}
+#map{
+	/*padding-top: 50px;*/
+	margin: 100px auto;
+	width: 800px;
+    height: 300px;
+	border:1px solid black;    
+}
+
+#mail p a{
+	text-align:center;
+	margin-right:30px;
+}
+
+/*#fb{
+	width:5px;
+	height:5px;	
+}*/
+
+/************ Contact Us page css - END ***********/
+/************ Packages page css - START ***********/
+
+#packages_wrapper {
+  width: 1000px;
+  height: auto;
+  margin: 100px auto;
+}
+
+#packages_wrapper h3{
+	text-align: center;
+}
+
+#packages {
+	float:left;
+	width: 700px;
+	height: auto;
+	border:1px solid grey;
+}
+
+.deals{
+	float:left; 
+	width:600px; 
+	height:auto;
+}
+.deals p,ul{
+	padding-left:30px;
+	
+}
+.deals h4{
+	padding-left:30px;
+}
+
+#amenities{
+	float:right; 
+	width:250px; 
+	height:auto;
+	border:1px solid grey;
+}
+
+#amenities p{
+	border:1px;
+	width:250px;
+	height:auto;
+	padding:0px 10px 10px 10px;
+}
+
+/************ Packages page css - END ***********/
